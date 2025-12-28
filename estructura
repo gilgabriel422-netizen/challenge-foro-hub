@@ -1,0 +1,28 @@
+challenge-api/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/com/tuusuario/challenge/
+│   │   │   ├── controller/
+│   │   │   │   └── ProductoController.java
+│   │   │   ├── dto/
+│   │   │   │   └── DatosRegistroProducto.java
+│   │   │   ├── model/
+│   │   │   │   └── Producto.java
+│   │   │   ├── repository/
+│   │   │   │   └── ProductoRepository.java
+│   │   │   ├── service/
+│   │   │   │   └── ProductoService.java
+│   │   │   ├── security/
+│   │   │   │   └── SecurityConfigurations.java
+│   │   │   └── ChallengeApiApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── data.sql (opcional para seed)
+│   └── test/
+│       └── java/com/tuusuario/challenge/
+│           └── ProductoControllerTest.java
+│
+├── .gitignore
+├── README.md
+└── pom.xml
